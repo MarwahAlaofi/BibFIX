@@ -52,18 +52,18 @@ _(choose the version compatible with the Chrome browser installed on your machin
 3. **Clone** the project.
 4. **Place** the downloaded chrome driver in the `tools` directory.  
 5. **Install** `selenium==3.141.0` and `bibtexparser`
-6. Run bibfix.py using the options described below:
+6. **Run** bibfix.py using the options described below:
 
-| Option  | Description |
+| Option &nbsp;&nbsp;  | Description |
 | ------------- | ------------- |
-| -i (--infile)  | sets the path to the input .bib file.  |
-| -o (--outfile)  | sets the path of the generated output .bib file.  |
-| -src (--source)  | sets the desired source of the BibTeX records [dblp or acm]. By default, the script uses dblp to source bibtex records.  |
-| -k (--keepkeys)  | keeps the keys (labels) of the BibTex unchanged so the compile is not affected. It is set to False by default.  |
-| -hd (--hide)  | hides the browser instance that is used to scrape bibTeX records. It is set to False by default.  |
-| -s (--short)  | sets the script to use the short version of conference/journal names (under development). It is set to False by default.   |
+| <nobr>-i (--infile) </nobr> | sets the path to the input .bib file.  |
+| <nobr> -o (--outfile)</nobr> </nobr>  | sets the path of the generated output .bib file.  |
+| <nobr>-src (--source) </nobr> | sets the desired source of the BibTeX records [dblp or acm]. By default, the script uses dblp to source bibtex records.  |
+| <nobr>-k (--keepkeys)</nobr>  | keeps the keys (labels) of the BibTex unchanged so the compile is not affected. It is set to False by default.  |
+| <nobr>-hd (--hide) </nobr> | hides the browser instance that is used to scrape bibTeX records. It is set to False by default.  |
+| <nobr>-s (--short)</nobr>  | sets the script to use the short version of conference/journal names (under development). It is set to False by default.   |
 
-- Enjoy!🚀😉
+- Enjoy! 🚀😉
 
 ## Limitations and further details
 - There are many assumptions used to build this script. For example, the script uses paper titles to search for bib records and assumes that first matching title is the correct one. 
