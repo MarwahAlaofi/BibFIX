@@ -57,7 +57,7 @@ _(choose the version compatible with the Chrome browser installed on your machin
 | Option &nbsp;&nbsp;  | Description |
 | ------------- | ------------- |
 | <nobr>-i (--infile) </nobr> | sets the path to the input .bib file.  |
-| <nobr> -o (--outfile)</nobr> </nobr>  | sets the path of the generated output .bib file.  |
+| <nobr> -o (--outfile)</nobr>  | sets the path of the generated output .bib file.  |
 | <nobr>-src (--source) </nobr> | sets the desired source of the BibTeX records [dblp or acm]. By default, the script uses dblp to source bibtex records.  |
 | <nobr>-k (--keepkeys)</nobr>  | keeps the keys (labels) of the BibTex unchanged so the compile is not affected. It is set to False by default.  |
 | <nobr>-hd (--hide) </nobr> | hides the browser instance that is used to scrape bibTeX records. It is set to False by default.  |
