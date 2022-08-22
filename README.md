@@ -1,7 +1,7 @@
 # BibFIX
 
 ## Description
-BibFIX automatically generates *complete*, *consistent* and
+BibFIX aims to automatically generate *complete*, *consistent* and
 *well-formatted* BibTeX records for papers published in 
 Computer/Information Science venues given a .bib file.
 
