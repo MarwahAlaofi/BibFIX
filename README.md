@@ -45,12 +45,13 @@ Failed 🫣 .......  3/28
 ```
 
 ## How to use?
-1. Download and install **python**: https://www.python.org/downloads/
+1. **Download** and **install** [python](https://www.python.org/downloads/) 
 _(ensure it is included in your environment path)_
-2. Download **Chrome Driver** (choose the version compatible with the chrome browser installed on your machine): https://chromedriver.chromium.org/downloads
-3. Clone the project
-4. Place the downloaded chrome driver in the `tools` directory.  
-5. Install the needed packages
+2. **Download** [Chrome Driver](https://chromedriver.chromium.org/downloads)
+_(choose the version compatible with the Chrome browser installed on your machine)_
+3. **Clone** the project.
+4. **Place** the downloaded chrome driver in the `tools` directory.  
+5. **Install** `selenium==3.141.0` and `bibtexparser`
 6. Run bibfix.py using the options described below:
 
 | Option  | Description |
