@@ -2,12 +2,11 @@ from selenium import webdriver
 import logging
 import sys
 import argparse
-
-# read command arguments
 from utilities import *
 
 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
 
+# read command arguments
 argv = sys.argv[1:]
 
 # setup command argument parser
