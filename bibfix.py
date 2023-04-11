@@ -36,8 +36,9 @@ try:
     with args.infile[0] as bibtex_file:
         bib_database = bibtexparser.bparser.BibTexParser(common_strings=True).parse_file(bibtex_file)
 
-except:
+except Exception as e:
     logging.error("invalid bibtex formatting!")
+    print(e)
     exit()
 
 # setup the web driver to chrome and provide the path of the downloaded driver
