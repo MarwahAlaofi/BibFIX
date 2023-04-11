@@ -50,8 +50,9 @@ def format_bib_entry(en):
     for field in extra_fields:
         if field in en:
             s1 = '  {0} ='.format(field.upper())
+            # s2 = fmt.format(en[field])
             s2 = en[field]
-            s3 = '{0:17s}{{{1}}}'.format(s1, s2)
+            s3 = '{0:17s}{{{1}}},'.format(s1, s2)
             s3 = textwrap.fill(s3, subsequent_indent=' ' * 18, width=70) + '\n'
             s += s3
 
@@ -60,6 +61,7 @@ def format_bib_entry(en):
         if field in en:
             s1 = '  {0} ='.format(field.upper())
             s2 = fmt.format(en[field])
+
             s3 = '{0:17s}{1}'.format(s1, s2)
             if wrap:
                 # fill seems to remove trailing '\n'
